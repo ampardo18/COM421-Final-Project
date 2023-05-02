@@ -9,3 +9,6 @@ Right Image Source:
 
 Brochure Template Source: 
 > https://templatelab.com/brochure-templates/
+
+## Template Sources
+Template and images made using Canva
