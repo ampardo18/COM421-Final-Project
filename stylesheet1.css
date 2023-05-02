@@ -10,7 +10,7 @@ footer{
     color: white;
 }
 header{
-    background-color:rgb(117, 113, 113);
+    background-color: rgb(117, 113, 113);
     padding: 15px;
     font-family: Georgia, serif;
     font-size: 2.410vw;
@@ -18,7 +18,7 @@ header{
     color: white;
 }
 main{
-    background-color: rgb(165, 220, 203);    
+    background-color: #7ACDF1;    
     height: 432.1vh;
     padding-top: 30px;
 }
@@ -30,6 +30,7 @@ main{
 }
 .second-heading{
     position: relative;
+	color: #1B3C65;
     margin-left: 7.918vw;
     font-family: Verdana, sans-serif;
     font-size: 1.742vw;
@@ -53,7 +54,7 @@ main{
     padding: 20px;
     height: 11vw;
     width: 37vw;
-    background-color: rgb(74, 82, 77);
+    background-color: #1B3C65;
     color: white;
     text-align: center;
     font-family: Georgia, serif;
@@ -67,7 +68,7 @@ main{
     padding: 10px;
     height: 5vw;
     width: 12vw;
-    background-color: rgb(52, 50, 50); 
+    background-color: #1B3C65; 
     color: white;
     text-align: center;
     font-family: Georgia, serif;
@@ -87,7 +88,7 @@ a.button1:hover{
     padding: 10px;
     height: 5vw;
     width: 12vw;
-    background-color: rgb(52, 50, 50); 
+    background-color: #1B3C65; 
     color: white;
     text-align: center;
     font-family: Georgia, serif;
@@ -118,7 +119,7 @@ a.button2:hover{
     padding: 20px;
     height: 21vw;
     width: 37vw;
-    background-color: rgb(74, 82, 77);
+    background-color: rgb(117, 113, 113);
     color: white;
     text-align: center;
     font-family: Georgia, serif;
@@ -140,6 +141,7 @@ td, th {
 	border: 1px solid #000000;
 	text-align: left;
 	padding: 8px;
+	background-color: rgba(27, 60, 101, 0.3);
 }
 
 table {
