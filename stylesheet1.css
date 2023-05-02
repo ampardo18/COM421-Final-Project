@@ -19,7 +19,7 @@ header{
 }
 main{
     background-color: rgb(165, 220, 203);    
-    height: 407.1vh;
+    height: 432.1vh;
     padding-top: 30px;
 }
 #page-heading{
@@ -61,8 +61,8 @@ main{
     font-weight: bolder;
     margin: auto;
 }
-.button{
-    position: relative; 
+.button1{
+    position: absolute; 
     display: block;
     padding: 10px;
     height: 5vw;
@@ -74,9 +74,29 @@ main{
     font-size: 1.543vw;
     font-weight: bolder;
     text-decoration: none;
-    margin: auto;
 }
-a.button:hover{
+a.button1:hover{
+    font-weight: bolder;
+    background-color: grey; 
+    color: black;
+
+}
+.button2{
+    position: absolute; 
+    display: block;
+    padding: 10px;
+    height: 5vw;
+    width: 12vw;
+    background-color: rgb(52, 50, 50); 
+    color: white;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 1.543vw;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 23.5vw;
+}
+a.button2:hover{
     font-weight: bolder;
     background-color: grey; 
     color: black;
