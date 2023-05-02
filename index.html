@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet1.css"><!--CSS sheet that includes all the styling of this page-->
+    <link rel="stylesheet" href="stylesheet2.css"><!--CSS sheet for navigation bar-->
+    <title>The Vanguard</title>
+</head>
+<body>
+    <!--Used header tag to easily style all the top of the page in a specific way-->
+    <header>
+        <img id="logo" src=".//graphics/icons/shield.png" alt="An image of a shield that represents our compant protecting the community from unnecessary tickets that can easily be appealed.">
+        The Vanguard: Empowering The Community
+        <!--'tabindex = 0' is used to allow users to use the tab key to navigate through the nav bar-->
+        <nav tabindex="0">  
+            <!--class "navigation" corresponds to the styling of all elements under the <ul> tag-->   
+            <ul class="navigation">
+               <!--class "navigationlinks" is for links of other webpages; used to style their appearance within the navigation bar-->
+               <li class="navigation-links">
+                  <a href="#Introduction">Introduction</a>
+               </li>
+                <!--class "navigationlinks" is for links of other webpages; used to style their appearance within the navigation bar-->
+               <li class="navigation-links">
+                  <a href="#Useful-Statistics">Statistics About Ticket Violations in Ward 14</a>
+               </li>
+                <!--class "navigationlinks" is for links of other webpages; used to style their appearance within the navigation bar-->
+               <li class="navigation-links">
+                  <a href="#Case Study: Anthony Ayala's Success" class="navigation-links">Case Study: Anthony Ayala</a>
+               </li> 
+                <!--class "navigationlinks" is for links of other webpages; used to style their appearance within the navigation bar-->    
+               <li class="navigation-links">
+                  <a href="#Next Steps">Next Steps to Take</a>
+               </li>
+            </ul>
+         </nav>
+    </header>
+    <!--Used main tag so elements under it follow the styles applied to the tag-->
+    <main>
+        <!--section tag with id "Introduction" is used to alert screen readers of the introduction to the website-->
+        <section id="Introduction">
+        <!--id "page-heading" is used to style the heading of the this page relative to other content within the page-->
+        <h1 id="page-heading">Winning Your Traffic Violation Appeal</h1>
+        <!--id "mission" is used to specifically create a colored box through a div tag. Style is added to the div tag
+        to center align it and have similar properties to other styles within the website-->
+        <div id="mission">
+            "Want to appeal a ticket, but don't know how to? Our mission is to encourage people to appeal their 
+            tickets and win with ease. The financial burden of some tickets may be great, and with our help, you 
+            will be able to avoid spending any money on unfair tickets."
+        </div>
+        <!--class "text" is used to style text in <p> tag relative to other content within the index page-->
+        <p class="text">Receiving a ticket can be one of the most frustrating things, especially if you believe you have clear evidence 
+        to disprove the ticket. However, several people have successfully appealed their tickets in the Ward 14 community and we 
+        will assist you in replicating their success.</p>
+        </section>
+        <!--section tag with id "Useful-Statistics" is used in the nav bar, allows for users to navigate to this part of the page-->
+        <section id="Useful-Statistics">
+            <!--"second-heading" used to style an <h2> tag in a specific way-->
+            <h2 class="second-heading">Statistics About Ticket Violations in Ward 14</h2>
+            <p class="text"> In Chicago's Ward 14, many people are receiving the same tickets consistenly, which has accumulated to
+            hundreds of dollars lost. Below, Figure 1 displays the top 5 most prominent ticket violations in Ward 14: </p>
+            <!--"image-centering" class is used to properly style the images to avoid them being too big for the webpage-->
+            <img class="image-centering" src=".//graphics/illustrations/Graph1.png" alt="An image that showcases a bar graph with the top 5 violations in Chicago's ward 14. The violations include: 
+            Residential Parking Permit (1857 tickets), Expired Plates or Temporary Registration (1238 tickets), Rear and Front Plate Required (1212 tickets), Street Cleaning (1111 tickets), and No City Sticker or Improper Display (880 tickets)">
+            <!--"captions" class is used to style the captions below images; mainly used to create space between the image and text-->
+            <figcaption class="captions">Figure 1. The top 5 ticket violation in Chicago's ward 14</figcaption>
+            
+            <p class="text">As seen above, several community members are dealing with the same violations that you may have received. Understandly, the process 
+            of appealing a ticket is intimidating, especially since you have to stand in front a judge and present a well-contructed argument. Though, many community members have
+            directly confronted this intimidation and successfully appealed their tickets. Figure 2 showcases the amount of tickets challenged and won by community members. </p>
+            <img class="image-centering" src=".//graphics/illustrations/graph2.png" alt="An image that showcases a graph with two bars next to each other. One bar graph is colored blue (left bar), which
+            highlights the amount of people who challenged a ticket violation. A bar next to the blue bar (green bar) highlights the amount of people who won their appeals. The data is from the same top 5 ticket violations.">
+            <figcaption class="captions">Figure 2. The comparison between challenges and their success with the top 5 ticket violations. The numbers are from each respective category of ticket violations from Figure 1.</figcaption>
+            <p class="text">To give more context about the success of ticket violations: </p>
+            <!--class "text" was applied here so that the unordered list follows a similar styling to text in <p> tags-->
+            <ul class="text">
+                <li>Residential permit parking: <strong>56.7% found not liable</strong></li>
+                <li>Expired plates or temporary registration: <strong>69.7% found not liable</strong></li>
+                <li>Rear and front plate required: <strong>64.7% found not liable</strong></li>
+                <li>Street cleaning: <strong>45.1% found not liable</strong></li>
+                <li>No city sticker or improper display: <strong>47.8% found not liable</strong></li>
+            </ul>
+            <p class="text">Despite the probability of most people not having any background in law, various community members in Ward 14 were able to successfully appeal their tickets. The large
+            success rate across the top 5 ticket violations highlights that anyone is capable of appealing their ticket, regardless of background and capability. Instead of paying an unfair ticket that costs approximately a hundred
+            dollars, contesting your ticket is the most optimal solution to completely avoid paying it. The high success rates indicate that you are completely capable of challenging a traffic violation 
+            and winning.</p>
+            <p class="text">Still unsure about appealing your ticket? Check out a case study where a community member, Anthony Ayala, challenged their ticket and won.</p>
+        </section>
+        <!--this section signals a new part within the website; used in nav bar to navigate through the page-->
+        <section id="Case Study: Anthony Ayala's Success">
+            <!--"second-heading" used to style an <h2> tag in a specific way-->
+            <h2 class="second-heading">Case Study: Anthony Ayala's Success in Appealing his Ticket</h2>
+            <p class="text">Anthony is a member of the community who works a job in managing construction projects. Despite Anthony's work load, he ensured his license plates were 
+            correctly displayed with an up-to-date plate and city sticker. However, nearing the expiration date of the car's plates, Anthony was unable to go to an Illinois 
+            Secretary of State facility to renew his plates due to work creating lack of time to do anything. Even though Anthony went 2 days before his plates expired to renew them, three days later
+            he received a ticket for expired plates.</p>
+            <p class="text">Anthony instantly thought that this ticket was unfair because he already filled out the necessary paper work to renew his plates and got caught in between the 
+            process. Even though Anthony was a little intimidated by the process, he prepared an argument demonstrating the issue was being resolved since he went to renew his plates 5 days 
+            before the ticket was issued and 2 days before the expiration date. When Anthony went to his designated court date, the presentation and detail of his argument convinced the judge that he was not liable of the ticket.</p>
+            <p class="text">Therefore, Anthony's ability to confront the intimidation of the process by defending himself from an unfair ticket highlights that anyone can go into
+            traffic court and contest their ticket. Even though Anthony had no background in law, he was able to construct an argument that helped him successfully appeal his ticket violation.</p>
+        </section>
+        <!--Section that indicates a new part of the website; used in the nav bar to navigate through the website-->
+        <section id="Next Steps">
+            <!--"second-heading" used to style an <h2> tag in a specific way-->
+            <h2 class="second-heading">Next Steps to Take</h2>
+            <p class="text">Want to replicate Anthony's success? Below are some resources that will help you learn more about traffic violations in Chicago and how to appeal them successfully. 
+            Additionally, download our template that helps people construct an argument that replicates Anthony's success in court!</p>
+            
+           <!-- <a class="button" href=".//graphics/Tony Gaddis - Starting Out with Java_ Early Objects, 6_e-Pearson (2017).pdf">View our template!</a> -->
+            <div id="box">
+                <h2>Resources</h2>
+                <!--"resources" removes styling of the unordered list-->
+                <ul class="resources">
+                    <!--"Links" provides styling to the links listed in each list element.-->
+                    <li><a class="links" href="https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/challenging_tickets/contesting_in_person.html">More Information About Tickets in Chicago and How to Appeal Them In Person</a></li>
+                    <li><a class="links" href="https://www.cookcountycourt.org/ABOUT-THE-COURT/Municipal-Department/Traffic-Division/Your-Rights-All-Traffic-Cases#3112156-right-to-an-attorney">Knowing Your Rights for Traffic Cases</a></li>
+                    <li><a class="links" href="https://www.illinoislegalaid.org/es/informacion-legal/obtener-una-multa-por-infraccion-menor-de-trafico">What to do When You Receive a Traffic Violation (Spanish)</a></li>
+                </ul>
+                <!--Temporary file, will change once we have the template-->
+                <a class="button" href=".//graphics/illustrations/Tony Gaddis - Starting Out with Java_ Early Objects, 6_e-Pearson (2017).pdf">View our template!</a>
+            </div>
+            
+        </section>
+    </main>
+    <!--Used the footer tag to easily style the bottom of the page-->
+    <footer>
+        Communication 421: Final Project
+    </footer>
+</body>
+</html>
