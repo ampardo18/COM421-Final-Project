@@ -18,7 +18,7 @@ header{
     color: white;
 }
 main{
-    background-color: #7ACDF1;    
+    background-color: rgb(169, 210, 224);   
     height: 432.1vh;
     padding-top: 30px;
 }
@@ -141,7 +141,7 @@ td, th {
 	border: 1px solid #000000;
 	text-align: left;
 	padding: 8px;
-	background-color: rgba(27, 60, 101, 0.3);
+	background-color: rgb(160, 189, 199);
 }
 
 table {
